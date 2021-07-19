@@ -14,5 +14,5 @@ body{
 }
 
 .animate__animated.animate__fadeInDown {
-    --animate-duration: 1.5s;
+    --animate-duration: 1s;
   }
