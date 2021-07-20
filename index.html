@@ -1,65 +1,92 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <!--Bootstrap-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        
-        <!--Google Fonts-->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-        
-        <!--Boxicons-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-        
-        <!--CSS Animations-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        
-        <!--Custom Stylesheet-->
-        <link href="styles.css" rel="stylesheet">
-        
-        <!--Favicon-->
-        <link rel="shortcut icon" href="assets/shopping.png" type="image/x-icon">
-        <title>Dunder Mifflin</title>
+<head>
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!--Boxicons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  
+  <!--CSS Animations-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
+  <!--Custom Stylesheet-->
+  <link href="styles.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="assets/shopping.png" type="image/x-icon">
+  <title>Dunder Mifflin</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark py-3">
-        <img id="logo" src="assets/shopping.png" class="animate__animated animate__fadeInDown d-inline-block align-top" alt="" loading="lazy">
-        <a class="animate__animated animate__fadeInDown navbar-brand" href="index.html">Dunder Mifflin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark py-3">
+    <img id="logo" src="assets/shopping.png" class="animate__animated animate__fadeInDown d-inline-block align-top" alt="" loading="lazy">
+    <a class="animate__animated animate__fadeInDown navbar-brand" href="index.html">Dunder Mifflin</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
       
-        <div class="animate__animated animate__fadeInDown collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Products</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Collections
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Men</a>
-                  <a class="dropdown-item" href="#">Women</a>
-                  <a class="dropdown-item" href="#">Kids</a>
-                </div>
-              </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About us</a>
-              </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+    <div class="animate__animated animate__fadeInDown collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Products</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Collections
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Men</a>
+              <a class="dropdown-item" href="#">Women</a>
+              <a class="dropdown-item" href="#">Kids</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!--Main Banner-->
+  <header class="">
+    <h1 class="animate__animated animate__fadeInLeft">
+      Summer Vibes <br>
+      Mode On
+    </h1>
+    <p class="animate__animated animate__fadeInUp">70% SALE OFF</p>
+    </header>
+    
+    <!--Content-->
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quidem blanditiis quos non quisquam repudiandae autem, recusandae aliquam
+        accusantium ipsum quod iusto vero, tempore ab id exercitationem similique dignissimos
+        officia voluptas repudiandae natus delectus veritatis. Possimus</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quidem blanditiis quos non quisquam repudiandae autem, recusandae aliquam
+        accusantium ipsum quod iusto vero, tempore ab id exercitationem similique dignissimos
+        officia voluptas repudiandae natus delectus veritatis. Possimus</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quidem blanditiis quos non quisquam repudiandae autem, recusandae aliquam
+        accusantium ipsum quod iusto vero, tempore ab id exercitationem similique dignissimos
+        officia voluptas repudiandae natus delectus veritatis. Possimus</p>            
+    </div>
 </body>
 </html>
