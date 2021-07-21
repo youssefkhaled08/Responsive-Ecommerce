@@ -1,12 +1,13 @@
 body{
-    background-color: #BBBBBB;
+    background-color: #DBCBBD;
     font-family: 'Poppins', sans-serif;
     margin: 0;
     font-size: 20px;
 }
 
 .navbar{
-    background-color: #222831;
+    /*background-color: #222831;*/
+    background-color: #290001;
 }
 
 #logo{
